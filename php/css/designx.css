@@ -1,0 +1,179 @@
+/*
+Orange:			EE872A
+Green:			8AC007
+Lightgreen:		e5eecc
+Blue:			40B3DF
+DarkGreyBg:		555555
+LightGreyBg:	F6F4F0
+GreyBorder:		D4D4D4
+Pink:			B4009E
+*/
+//OliveGreen: #9ACD32
+//OliveDrab: #6B8E23
+//#3f3f3f        e5e5e5     598615     E6FABC   f9f9f9   E0E0E0
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+html{overflow-y:scroll;}
+
+
+body{
+font-size:16px;
+color:#000000;
+background-color:#598615;
+margin:0px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+div.headline{
+    width:700px;
+    margin:auto;
+    font-size:50px;
+    font-weight:bold;
+    color:#EE872A;
+}
+
+
+#top{
+width:1100px;margin:auto;
+}
+
+#logo{
+width:340px;text-align:left;float:left;
+}
+
+
+#header{
+height:25px;
+background-color:#EE872A;
+border:1px solid #d3d3d3;
+border-top-right-radius:2px;
+border-top-left-radius:2px;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+#headerTutorial{
+float:left;
+width:400px;
+word-spacing:12px;
+font-size:120%;
+padding-left:15px;
+padding-top:3px;
+white-space:nowrap;
+text-align:left;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+#headerAbout{
+float:right;
+width:350px;
+word-spacing:6px;
+font-size:100%;
+padding-right:15px;
+padding-top:3px;
+color:#888888;
+white-space:nowrap;
+text-align:right;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+a.header:link,a.header:visited {color:#0000ff;text-decoration:none;}
+a.header:hover,a.header:active {color:#00ff00;text-decoration:none;}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+div.login
+{
+    float:right;
+    color:#FFFFFF;
+}
+input.bckground
+{
+    background-color:#e5eecc;
+}
+#content{
+width:80%;
+margin-left:100px;
+margin-right:100px;
+height: auto;
+float:left;
+margin-top:0px;
+background-color:#e5eecc;
+}
+
+#signup{
+width:304px;
+height:424px;
+border:3px solid #FFFFFF;
+text-align:left;
+float:right;
+margin-top:0px;
+overflow:hidden;
+background-color:#e5eecc;
+}
+h3.set
+{
+    color:#FF0000;
+    font-weight:bold;
+    margin-left:30px;
+}
+span.design
+{
+    text-decoration:blink;
+    color:#598615;
+}
+input.position
+{
+    width:150px;
+}
+
+#footer{
+height:25px;
+margin-top:430px;
+background-color:#EE872A;
+border:1px solid #d3d3d3;
+border-top-right-radius:2px;
+border-top-left-radius:2px;
+}
+div.afterlogin
+{
+    float:right;
+    margin-top:60px;
+}
+
+
+pre.borderline
+{
+    border-width:thin;
+    border-style:dashed;
+    border-color:#598615;
+    margin-left:30px;
+    margin-right:30px;
+}
+span.space
+{
+    margin-left:24px;
+}
+input.loc1
+{
+    margin-left:90px;
+    position:relative;
+}
+
+input.submit
+{
+    margin-left:400px;
+    width:100px;
+    height:40px;
+    font-size:large;
+}
+#boxfooter
+{
+height:25px;
+background-color:#EE872A;
+border:1px solid #d3d3d3;
+border-top-right-radius:2px;
+border-top-left-radius:2px;
+}

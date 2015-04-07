@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>View study_material_type</title>
+</head>
+<body>
+
+<?php
+    include 'connect_me.php';
+    $sql ="SELECT * FROM study_material_type";
+    $result = mysqli_query($con,$sql);
+    echo "<table border='1' cellpadding='10'>";
+    echo "<tr> <th>study_material_type ID</th> <th>study_material_type</th></tr>";
+    while($row = mysqli_fetch_array( $result ))
+    {	
+	echo "<tr>";
+	echo '<td>' . $row['study_material_type_id'] . '</td>';
+	echo '<td>' . $row['study_material_type_name'] . '</td>';
+	echo "</tr>"; 
+    } 
+    echo "</table>";
+?>
+</body>
+</html>	
